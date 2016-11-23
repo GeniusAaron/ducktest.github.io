@@ -1,0 +1,45 @@
+
+        .body {
+            background: rgb(215, 250, 220);
+            font-family: sans-serif;
+        }
+        
+        .header {
+            background-color: rgb(23, 66, 23);
+            color: white;
+            padding: 5px 10px;
+        }
+        
+        .center {
+	        padding: 20px;
+        }
+        .footer {
+            background-color: rgb(186, 222, 187);
+            padding: 6px;
+            clear: both;
+        }*/
+        
+        #duckpic {
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a6/Parrulo_-Muscovy_duckling.jpg);
+            width: 100px;
+            float: center;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            
+        }
+        
+        #moon {
+			width: 200px;
+			background: white url(https://upload.wikimedia.org/wikipedia/commons/a/a6/Parrulo_-Muscovy_duckling.jpg) no-repeat;
+			float: left;
+			margin-top: 50px;
+			margin-right: 25px;
+            margin-bottom: 6px;
+		}
+
+        #duck-links {
+            float: right;
+            width: 30%;
+            margin-left: 10px;
+        }
+        

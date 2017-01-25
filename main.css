@@ -1,47 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fef7ea;
+  font-family: sans-serif;
+  height: 100%;
+  padding-bottom: 25px;
+  position: center;
+}
 
-        .body {
-            background: #ffb000;
-            font-family: sans-serif;
-        }
-        
-        .header {
-            background-color: #ff9300;
-            color: white;
-            padding: 5px 15px;
-        }
-        
-        .center {
-	        padding: 20px;
-        }
-        
-        .footer {
-            background-color: #ffd196;
-            padding: 6px;
-            clear: both;
-            font-size: small;
-        }
-        
-        #duckpic {
-            background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a6/Parrulo_-Muscovy_duckling.jpg);
-            width: 100px;
-            float: center;
-            margin-right: 6px;
-            margin-bottom: 6px;
-            
-        }
-        
-        #moon {
-			width: 400px;
-			background: white url(https://upload.wikimedia.org/wikipedia/commons/a/a6/Parrulo_-Muscovy_duckling.jpg) no-repeat;
-			float: left;
-			margin-top: 25px;
-			margin-right: 25px;
-            margin-bottom: 25px;
-		}
+#logo {
+  margin: 0;
+  padding: 0;
+  padding-left: 25px;
+  padding-top: 15px;
+  height: 75px;
+  font-size: 40px;
+  background: #fa8a01;
 
-        #duck-links {
-            float: right;
-            width: 30%;
-            margin-left: 30px;
-        }
-        
+}
+
+#subLogo {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  padding-left: 2px;
+  font-weight: lighter;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #a85100;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #4e3e2e;
+}
+
+.nav a.active {
+  background-color: #fef7ea;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.4em;
+  }
+
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .center {
+    padding: 20px;
+    position: center;
+    max-width: 85%;
+    align-self: center;
+  }
+
+.links {
+  float: left;
+  background-color: #a85100;
+  color: #fff;
+  width: 175px;
+  height: 100%;
+  min-height: 200px;
+  margin: 10px;
+  margin-top: 25px;
+  margin-right: 25px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-bottom: 200px;
+}
+
+  #moon {
+    width: 400px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+}
+
+  #duck-links {
+      float: right;
+      width: 20%;
+      margin-left: 30px;
+  }
+
+  .footer {
+      background-color: #ffd196;
+      padding: 6px;
+      clear: both;
+      font-size: small;
+      margin-bottom: 0;
+  }
+
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
